@@ -1,0 +1,40 @@
+
+input {
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  padding:1rem;
+  font-size:1.5rem;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+.verify-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.submit-btn {
+  padding: 0.5rem 2rem;
+  background-color: royalblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display:block;
+  margin: 1rem auto;
+}
+.verification-code-class{
+  margin:1rem;
+}
